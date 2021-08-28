@@ -1,0 +1,195 @@
+body{
+    background: url("/Images/6000e2e8fa3ed5c4d0bce3181a5ff034.jpg");
+}
+
+
+
+/* navbar styling starts */
+
+.container-fluid{
+    width: 100% !important;
+    
+}
+div#collapsibleNavbar{
+    justify-content: flex-end;
+}
+
+nav .ul .li{
+    float: right;
+}
+
+/* navbar styling ends */
+
+
+/* home styling starts  */
+
+
+.profilepic{
+    width: 50%;
+    border-radius: 50%;
+} 
+
+.bg-black {
+    background-color: black;
+}
+
+.hw-450 {
+    height: 450px;
+    width: 450px;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+
+.profbox{
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 110px;
+    border:  solid black;
+    background-color: black;
+    padding: 40px; 
+    text-align: center;
+    border-radius: 10px;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.profbox .name{
+    font-size: 1.5em;
+}
+
+.name{
+    color: white;
+    align-content: center;
+    font-size: xx-large;
+}
+
+.name:hover{
+    color: red;
+}
+
+.text-center{
+    color: white;
+}
+.text-center:hover{
+    color: red;
+}
+
+
+
+/* home styling ends  */
+
+
+/* About styling start */
+
+.container1 h1{
+    text-align: center;
+    color: white;
+}
+
+.container1{
+    border: 1px solid black;
+    margin: 20px;
+    background-color: black;
+    border-radius: 20px;
+
+}
+
+.flex{
+    border-radius: 20px;
+}
+
+.aboutpic{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.para{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    font-weight: 400px;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.para:hover{
+    color: red;
+}
+
+
+/* About styling ends */
+ 
+
+/* Skills styling starts */
+
+
+
+.container .col{
+    border: 1px solid red ;
+}
+
+#skills {
+    margin: 0  3%;
+    border-radius: 20px;
+    padding: 0 1%;
+}
+
+#skills h2{
+    text-align: center;
+    color: white;
+}
+
+
+
+/* Skills styling Ends */
+
+
+/* contact styling starts */
+
+.box2{
+    border: 1px solid black;
+    margin: 20px;
+    height: 20%;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.box2 h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+
+/* contact styling ends  */
+
+.footer{
+    background-color: black;
+    margin: 20px;
+    height: 30px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.footer:hover{
+    color: red;
+}
+
+
+
+@media (min-width:768px) {
+
+    .profbox{
+        width: 450px;
+}
+
+}

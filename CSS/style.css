@@ -1,5 +1,5 @@
-html{
-    background: url ("./Images/bgimg.jpg");
+body{
+    background: url(../Images/bgimg.jpg);
 }
 
 /* navbar styling starts */
@@ -14,6 +14,10 @@ div#collapsibleNavbar{
 
 nav .ul .li{
     float: right;
+}
+
+.h-red:hover{
+    color: red;
 }
 
 /* navbar styling ends */
@@ -57,6 +61,10 @@ nav .ul .li{
     font-size: 1.5em;
 }
 
+.profbox .text-center{
+    font-size: 1em;
+}
+
 .name{
     color: white;
     align-content: center;
@@ -74,7 +82,16 @@ nav .ul .li{
     color: red;
 }
 
+.social-icons{
+    font-size: 25px;   
+}
+.social-icons a{
+    color: white;
+}
 
+.social-icons a:hover{
+    color: red;
+}
 
 /* home styling ends  */
 
@@ -107,6 +124,7 @@ nav .ul .li{
 
 .para{
     background-color: black;
+    padding: 10px;
     border-radius: 20px;
     color: white;
     font-weight: 400px;
@@ -123,6 +141,9 @@ nav .ul .li{
 
 /* Skills styling starts */
 
+.img-fluid{
+    border-radius: 8px;
+}
 
 
 .container .col{
@@ -182,12 +203,8 @@ nav .ul .li{
     color: red;
 }
 
-
-
 @media (min-width:768px) {
-
-    .profbox{
+     .profbox{
         width: 450px;
 }
-
 }

@@ -46,6 +46,10 @@ nav .ul .li{
     border-radius: 10px;
 }
 
+#name{
+    color: red;
+}
+
 
 .profbox{
     width: 100%;
@@ -80,6 +84,7 @@ nav .ul .li{
 .text-center{
     color: white;
 }
+
 .text-center:hover{
     color: red;
 }
@@ -133,9 +138,9 @@ nav .ul .li{
     font-size: larger;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.para:hover{
+/* .para:hover{
     color: red;
-}
+} */
 
 
 /* About styling ends */
